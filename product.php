@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Sacramento&family=Work+Sans:wght@100@400&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Poppins&family=Sacramento&family=Work+Sans:wght@100&display=swap"
+    rel="stylesheet">
+
+<!-- icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Poppins:wght@400;500&family=Sacramento&family=Work+Sans:wght@100&display=swap"
+    rel="stylesheet">
+<!-- css -->
+<link rel="stylesheet" href="css/styleProduct.css">
+
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-md bg-black mynavbar">
+        <img class="logo" src="img/Logo.jpg" alt="">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">JOKUL MOBIL</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-body ">
+                    <div class="navbar-nav ms-auto ">
+                        <a class="nav-link text-white" href="index.php">Home</a>
+                        <a class="nav-link text-white" href="product.php">Produk</a>
+                        <a class="nav-link text-white" href="#Story">About</a>
+                        <a class="nav-link text-white" href="#gallery">Contact</a>
+                        <a class="nav-link text-white" href="#rsvp">RSVP</a>
+                        <a class="nav-link text-white" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+
+
+    <main>
+
+        <section class="upx py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-8 col-md-10 mx-auto ">
+                    <h1 class="fw-light">Album example</h1>
+                    <p class="lead text-body-secondary">Something short and leading about the collection below—its
+                        contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply
+                        skip over it entirely.</p>
+                    <p>
+                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-lg-4 col-6">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="250"
+                                src="img/z.jpeg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </img>
+                            <div class="card-body">
+                                <p class="card-text">judul</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-1 fadeIn">
+        <div class="container py-4">
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <h5 class="text-white mb-4"></h5>
+                    <p class="mb-2"><i class="bi bi-geo-alt"></i> &nbsp; Kalijati timur, RT21/07. Subang</p>
+                    <p class="mb-2"><i class="bi bi-telephone"></i> &nbsp; 081288011459</p>
+                    <p class="mb-2"><i class="bi bi-envelope"></i> &nbsp; info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-instagram"></i></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-youtube"></i></i></a>
+                    </div>
+                </div>
+
+                <div class=" col-lg-2 col-md-2">
+                    <img src="img/Logo.jpg" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 d-flex align-items-center text-nowrap">
+                    <h4 style="font-size: 2.3rem">JOKUL MOBIL</h4>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="js/main.js"></script>
+</body>
+
+</html>

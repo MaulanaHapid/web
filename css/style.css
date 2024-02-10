@@ -1,0 +1,143 @@
+body{
+   background-color: white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+   letter-spacing: 0.5px;
+}
+
+img {
+   max-width: 100% !important;
+   max-height: 100% !important;
+}
+
+
+
+
+/* navbar */
+.mynavbar{
+   color: white !important;
+}
+
+.mynavbar .offcanvas{
+   height: 100vh;
+ 
+}
+
+
+.mynavbar .logo{
+   width: 4rem;
+   margin-left: 5rem;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title{
+margin-left: -2rem; 
+
+font-size: 1.4rem;
+font-weight: bold;
+
+}
+
+.mynavbar .navbar-nav{
+   margin-right: 5rem;
+}
+
+.mynavbar .nav-link{
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+
+
+
+/* hero */
+.hero{
+   background-image: url(../img/Home\ \(2\).png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   margin-top: -5rem;
+   display: flex;
+   align-items: center;
+
+
+}
+
+.hero h1{
+   font-size: 3.8rem;
+   font-weight: 500;
+}
+
+.hero h3{
+  text-transform: uppercase;
+
+  margin-bottom: 2rem;
+}
+
+
+.myimg{
+   width: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid ;
+}
+
+/* profile */
+.profile{
+   background-color: snow;
+   min-height: 100vh;
+}
+
+
+
+/* offer */
+.offer{
+   background-color:#000000;
+}
+
+.offer h6{
+   font-weight: 700;
+}
+
+.offer p{
+   font-size: 0.95rem;
+}
+
+.offer h3{
+   font-size: 2.5rem;
+   text-transform: uppercase;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 3px;
+}
+
+.offer .card-body{
+   background-color: #CF2025;
+}
+
+
+/* product */
+.product{
+   background-color:snow;
+}
+.product .card-body{
+   background-color: darkgrey !important;
+}
+
+
+
+/* footer */
+.portrait {
+   height: 6rem;
+   width: 3rem;
+}
+
+@media (max-width: 576px){
+   html{
+      font-size: 53%;
+  }
+  .logo{
+   display: none;
+  }
+}
